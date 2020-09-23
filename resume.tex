@@ -1,0 +1,122 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rishi Shah 
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage{enumitem}
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{William Berman}
+\address{Mountain View, California \\ WLBberman@gmail.com}
+
+\begin{document}
+
+\begin{rSection}{Work Experience}
+
+  \begin{rSubsection}{Coinbase}{2020 - present}{Software Engineer}{}
+  \end{rSubsection}
+
+  \begin{rSubsection}{Opus Logica}{2017 - 2020}{Software Engineer, Project Lead}{}
+
+  \item Created general-purpose risk assessment tool for the Department of Energy
+    \begin{itemize}[label=\raisebox{0.4ex}{\tiny $\bullet$}]
+      \itemsep -0.5em
+      \vspace{-0.5em}
+    \item Led feature development by combining requirements for regulatory compliance and risk assessment into software roadmaps
+    \item Directed technical discussion at multiple risk assessment working groups by integrating software with existing client workflows and evaluating user feedback
+    \item Architected core library around custom Lisp implementation to handle changing requirements and ensure future extensibility
+    \item Integrated AGPLv3 code with proprietary risk assessment methodology, ensuring compliance with existing intellectual property
+    \item Instrumental in evolving project to receive continued funding
+    \end{itemize}
+    \hspace{.2667\textwidth}
+  \item Created asynchronous data processing pipeline with microservices architecture
+    \begin{itemize}[label=\raisebox{0.4ex}{\tiny $\bullet$}]
+      \itemsep -0.5em
+      \vspace{-0.5em}
+    \item Identified and removed performance bottlenecks by refactoring existing system into multiple, smaller services
+    \end{itemize}
+  \end{rSubsection}
+
+  \begin{rSubsection}{Orchid Protocol}{2018}{Software Engineer}{}
+  \item Prototyped bootstrapping node for blockchain network
+  \item Worked closely with a product manager to evaluate the feasibility of features and technologies
+  \end{rSubsection}
+
+  \begin{rSubsection}{ Research on Adaptive Computing Environments Laboratory}{2016-2018}{Systems Researcher}{}
+  \item Researched applications of ARIMA based modeling on AWS spot instance pricing market
+  \item Containerized and automated the deployment of existing high-performance data analytics code
+  \end{rSubsection}
+
+\end{rSection}
+
+\begin{rSection}{Education}
+
+  {\bf B.S. Computer Science - University of California, Santa Barbara} \hfill {\em 2015-2018} 
+  \\ GPA - 3.9 - Highest Honors
+  \\ College of Creative Studies - A graduate school for undergraduates
+  \\ Completed Computer Science program in two years
+  \\ Concurrently worked full time at Opus Logica starting Fall of Junior year
+
+\end{rSection}
+
+\begin{rSection}{Programming Languages}
+  \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+    Proficient & TypeScript, Java, JavaScript, Python, Haskell, Ruby, Racket \\
+    Familiar & Go, C, C++ \\
+  \end{tabular}
+\end{rSection}
+
+\begin{rSection}{Technologies}
+  \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+    Proficient & Linux/Unix/*nix Systems, Docker, Microservices, Design Patterns, Node, Ruby on Rails \\ 
+    & Domain Specific Languages, Object-relational mapping, Angular, LISP, Android \\
+    Familiar & MySQL, PostgreSQL, React, Ansible
+  \end{tabular}
+\end{rSection}
+
+\begin{rSectionSubTitle}{References}{Contact information available upon request}
+  \begin{tabular}{ l l }
+    {\bf Brian J. Fox} & \printReferenceHighlights{
+      Inventor of GNU Bash Shell \\
+      CEO Opus Logica \\
+      Co-founder Orchid Protocol}
+
+    \\
+
+    {\bf Rich Wolski}
+    &
+    \printReferenceHighlights{
+      Head of systems department at UCSB \\
+      CTO/Co-founder of Eucalyptus systems}
+
+    \\
+    {\bf Murat Karaorman}
+    &
+    \printReferenceHighlights{
+      Senior Software Engineer Linear Technology \\
+      Technical lead Texas Instruments}
+
+  \end{tabular}
+
+\end{rSectionSubTitle}
+
+\end{document}
